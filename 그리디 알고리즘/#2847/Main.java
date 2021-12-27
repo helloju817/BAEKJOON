@@ -18,7 +18,7 @@ public class Main{
                 count++;
             }
             score=arr[i];
-        }
+        } 
         System.out.println(count);
     }
 }
