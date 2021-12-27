@@ -26,3 +26,4 @@ public class solution{
        System.out.println(count);
     }
 }
+ 
