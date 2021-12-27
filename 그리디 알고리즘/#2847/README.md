@@ -17,7 +17,7 @@
 5
 5
 #### 예제 출력
-3
+3 
 *****
 ### 링크
 <https://www.acmicpc.net/problem/2847>
