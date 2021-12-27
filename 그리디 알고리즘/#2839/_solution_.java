@@ -17,5 +17,5 @@ public class _solution_{
         if((N-a*5)/3!=0)
         System.out.println("-1");
         return;
-    }
+    } 
 }
