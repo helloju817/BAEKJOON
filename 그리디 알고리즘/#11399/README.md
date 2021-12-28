@@ -8,8 +8,8 @@
 ![image](https://user-images.githubusercontent.com/76280200/147553931-2233627a-8bcd-4016-a6c2-c313a5bf273e.png)
 ***
 #### 예제 입력
-5
-3 1 4 3 2
+5  
+  3 1 4 3 2
 #### 예제 출력 
 32 
 *****
