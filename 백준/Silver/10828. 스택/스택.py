@@ -1,6 +1,9 @@
-N = int(input())
-stack = []
-oper = []
+import sys
+from collections import deque
+
+N = int(sys.stdin.readline())
+stack = deque()
+oper = deque()
 
 def push(stack, item):
     stack.append(int(item))
@@ -25,9 +28,9 @@ def top(stack):
         return stack[-1]
     else:
         return -1
-        
-for x in range(N):
-    oper.append(input().split())
+
+for _ in range(N):
+    oper.append(sys.stdin.readline().strip().split())
 
 for x in oper:
     if x[0] == 'push':
