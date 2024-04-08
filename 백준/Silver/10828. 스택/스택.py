@@ -1,9 +1,8 @@
 import sys
-from collections import deque
 
 N = int(sys.stdin.readline())
-stack = deque()
-oper = deque()
+stack = []
+oper = []
 
 def push(stack, item):
     stack.append(int(item))
